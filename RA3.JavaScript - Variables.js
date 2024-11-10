@@ -1,4 +1,3 @@
-let numero = 30
-console.log(numero)
-numero = "30"
-console.log(numero)
+const nom = "David"
+console.log(nom)
+nom = "patata"
