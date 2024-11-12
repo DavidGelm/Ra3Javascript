@@ -1,12 +1,10 @@
-let number = 1234
-let BigInt = 5678n
+let costat1 = 4
+let costat2 = 4
 
-let suma = (number+Number(BigInt)).toFixed(1)
-let resta = (Number(BigInt)-number).toFixed(1)
-let multiplicacio = (Number(BigInt)*1234).toFixed(1)
-let divisio = (Number(BigInt)/number).toFixed(1)
+let costat1_elevat = costat1*costat1
+let costat2_elevat = costat2*costat2
 
-console.log("Suma: " +suma)
-console.log("Resta: " +resta)
-console.log("Multiplicació: " +multiplicacio)
-console.log("Divisió: " +divisio)
+let suma_costats = costat1_elevat + costat2_elevat
+
+let hipotenusa = Math.sqrt(suma_costats)
+console.log(hipotenusa)
