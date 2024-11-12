@@ -1,7 +1,7 @@
-let String1= "patata"
-let resultat1 = !!String1
+let Boolea1= true
+let resultat1 = Boolea1+0
 console.log(resultat1)
 
-let String = "patata"
-let resultat= Boolean(String)
+let Boolea2 = true
+let resultat= Number(Boolea2)
 console.log(resultat)
