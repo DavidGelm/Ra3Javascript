@@ -1,7 +1,7 @@
-let boolean  = true;
-let resultat = boolean + ""
-console.log(resultat)
-
-let boolean2 = true;
-let resultat1= String(boolean2)
+let String1= "patata"
+let resultat1 = !!String1
 console.log(resultat1)
+
+let String = "patata"
+let resultat= Boolean(String)
+console.log(resultat)
